@@ -1,4 +1,4 @@
-# Learn SQL
+# SQL Note
 
 ## Table of Contents
 
@@ -31,31 +31,31 @@
 
 SQL is an abbreviation for Structured Query Language. SQL is a language designed specifically for communicating with databases.
 
-**[⬆ Back to Top](#sql)**
+**[⬆ Back to Top](#sql-note)**
 
 ## What is Schema?
 
 Information about database and table layout and properties.
 
-**[⬆ Back to Top](#sql)**
+**[⬆ Back to Top](#sql-note)**
 
 ## What is a Table?
 
 A structured list of data of a specific type.
 
-**[⬆ Back to Top](#sql)**
+**[⬆ Back to Top](#sql-note)**
 
 ## What is a Column?
 
 A single field in a table.
 
-**[⬆ Back to Top](#sql)**
+**[⬆ Back to Top](#sql-note)**
 
 ## What is a Row?
 
 A record in a table.
 
-**[⬆ Back to Top](#sql)**
+**[⬆ Back to Top](#sql-note)**
 
 ## What is a Primary Key?
 
@@ -65,37 +65,37 @@ A column (or set of columns) whose values uniquely identify every row in a table
 
 Without a primary key, updating or deleting specific rows in a table becomes extremely difficult as there is no guaranteed safe way to refer to just the rows to be affected.
 
-**[⬆ Back to Top](#sql)**
+**[⬆ Back to Top](#sql-note)**
 
 ## What is a Clause?
 
 SQL statements are made up of clauses, some required and some optional. A clause usually consists of a keyword and supplied data. An example of this is the `SELECT` statement’s `FROM` clause.
 
-**[⬆ Back to Top](#sql)**
+**[⬆ Back to Top](#sql-note)**
 
 ## What is the SELECT keyword?
 
 `SELECT` statement is used to retrieve one or more columns of data from a table.
 
-**[⬆ Back to Top](#sql)**
+**[⬆ Back to Top](#sql-note)**
 
 ## What is the DISTINCT keyword?
 
 - `SELECT DISTINCT` returns only distinct (different) values.
 
-**[⬆ Back to Top](#sql)**
+**[⬆ Back to Top](#sql-note)**
 
 ## What is the LIMIT keyword?
 
 `LIMIT` keyword specifies the number of rows to return.
 
-**[⬆ Back to Top](#sql)**
+**[⬆ Back to Top](#sql-note)**
 
 ## What is the OFFSET keyword?
 
 `OFFSET` keyword specifies where to start from.
 
-**[⬆ Back to Top](#sql)**
+**[⬆ Back to Top](#sql-note)**
 
 ## What is the ORDER BY clause?
 
@@ -104,26 +104,26 @@ SQL statements are made up of clauses, some required and some optional. A clause
 - `ORDER` BY allows sorting by one or more columns.
 - Records can be returned in ascending or descending order.
 
-**[⬆ Back to Top](#sql)**
+**[⬆ Back to Top](#sql-note)**
 
 ## What is the WHERE clause?
 
 The `WHERE` clause is used to specify a condition while fetching the data from a single table or by joining with multiple tables.
 
-**[⬆ Back to Top](#sql)**
+**[⬆ Back to Top](#sql-note)**
 
 ## What is the WHERE LIKE Statement?
 
 - `WHERE LIKE` determines if a character string matches a pattern.
 - `WHERE LIKE` supports two wildcard match options: % and _.
 
-**[⬆ Back to Top](#sql)**
+**[⬆ Back to Top](#sql-note)**
 
 ## What is the AS keyword?
 
 The `AS` keyword is used to rename a column or table with an alias.
 
-**[⬆ Back to Top](#sql)**
+**[⬆ Back to Top](#sql-note)**
 
 ## What are Aggregate Functions?
 
@@ -135,39 +135,39 @@ Functions that operate on a set of rows to calculate and return a single value.
 4. `MIN()`
 5. `SUM()`
 
-**[⬆ Back to Top](#sql)**
+**[⬆ Back to Top](#sql-note)**
 
 ## What is the GROUP BY Clause?
 
 - The `GROUP BY` clause groups records into summary rows.
 - `GROUP BY` typically also involves aggregates: `COUNT`, `MAX`, `SUM`, `AVG`, etc.
 
-**[⬆ Back to Top](#sql)**
+**[⬆ Back to Top](#sql-note)**
 
 ## What is the HAVING Clause?
 
 - `HAVING` filters records that work on summarized `GROUP BY` results.
 - `HAVING` applies to summarized group records, whereas `WHERE` applies to individual records.
 
-**[⬆ Back to Top](#sql)**
+**[⬆ Back to Top](#sql-note)**
 
 ## What is INNER JOIN?
 
 Select records that have matching values in both tables.
 
-**[⬆ Back to Top](#sql)**
+**[⬆ Back to Top](#sql-note)**
 
 ## What is LEFT JOIN?
 
 LEFT JOIN performs a join starting with the first (left-most) table and then any matching second (right-most) table records.
 
-**[⬆ Back to Top](#sql)**
+**[⬆ Back to Top](#sql-note)**
 
 ## What is RIGHT JOIN?
 
 RIGHT JOIN performs a join starting with the second (right-most) table and then any matching first (left-most) table records.
 
-**[⬆ Back to Top](#sql)**
+**[⬆ Back to Top](#sql-note)**
 
 ## What is FULL JOIN:
 
@@ -175,7 +175,7 @@ FULL JOIN returns all matching records from both tables whether the other table 
 
 ![](https://user-images.githubusercontent.com/11765228/74197422-716f1000-4c9a-11ea-80c5-8c968fb8c879.png)
 
-**[⬆ Back to Top](#sql)**
+**[⬆ Back to Top](#sql-note)**
 
 ## What is UNION Clause:
 
@@ -184,6 +184,6 @@ FULL JOIN returns all matching records from both tables whether the other table 
 
 ![](https://user-images.githubusercontent.com/11765228/74197415-6d42f280-4c9a-11ea-9510-b7f643bc8d1e.png)
 
-**[⬆ Back to Top](#sql)**
+**[⬆ Back to Top](#sql-note)**
 
 
