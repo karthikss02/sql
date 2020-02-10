@@ -18,6 +18,8 @@
 - [What is the ORDER BY clause?](#what-is-the-order-by-clause)
 - [What is the WHERE clause?](#what-is-the-where-clause)
 - [What is the LIKE clause?](#what-is-the-like-clause)
+- [What is the AS keyword?](#what-is-the-as-keyword)
+- [What are Aggregate Functions?](#what-are-aggregate-functions)
 
 ## What is SQL?
 
@@ -110,5 +112,23 @@ The `WHERE` clause is used to specify a condition while fetching the data from a
 ## What is the LIKE clause?
 
 The `LIKE` clause is used to compare a value to similar values using wildcard operators.
+
+**[⬆ Back to Top](#sql)**
+
+## What is the AS keyword?
+
+The `AS` keyword is used to rename a column or table with an alias.
+
+**[⬆ Back to Top](#sql)**
+
+## What are Aggregate Functions?
+
+Functions that operate on a set of rows to calculate and return a single value.
+
+1. `AVG()`
+2. `COUNT()`
+3. `MAX()`
+4. `MIN()`
+5. `SUM()`
 
 **[⬆ Back to Top](#sql)**
